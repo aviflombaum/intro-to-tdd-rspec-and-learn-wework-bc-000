@@ -9,8 +9,8 @@ describe "current_age_for_birth_year method" do
   end  
   it "returns the age of a person based on the year of birth" do
     # the year is 2003
-    age_of_person = current_age_for_birth_year(200)
+    age_of_person = current_age_for_birth_year(2000)
 
-    expect(age_of_person).to eq(19)
+    expect(age_of_person).to eq(3)
   end
 end
